@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 80vh;
+}
+h1 {
+    font-size: 5rem;
+}
+.Timers {
+    display: flex;
+}
+.timer {
+    margin-right: 2rem;
+    border: 2px solid rgb(49, 49, 49);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(185, 185, 185);
+    font-size: 1.5rem;
+}
+.timer:hover {
+    background-color: rgb(228, 228, 228);
+    cursor: pointer;
+}
